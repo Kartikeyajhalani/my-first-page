@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+	font-family: "Lucida Console", Courier, monospace;
+	color: gray;
+}
+h1{
+	margin: center;
+	background-color: #E4A589;
+	color: #EAFAED; 
+}
+.center{
+	margin-left: 45%;
+}
+.container{
+    font-size: 150%;
+    background-color: #605388;
+}
+section {
+	width: 33.33%;	
+} 
+/*chole bhatura*/
+.sec1{
+	border:1px black solid;
+	margin: 1px;
+	background-color: #A9E777;
+}
+/*idli sambhar*/
+.sec2{
+	border:1px black solid;
+	margin: 1px;
+	background-color: #921830;
+}
+/*paw bhaji*/
+.sec3{
+	border: 1px black solid;
+	margin: 1px;
+	background-color: #2F974D;
+}	
+ h2 {
+	float: right;
+	background-color: #E0FFFF;
+} 
+@media (min-width: 1200px){
+	.sec1{
+		position: absolute;
+		left: 0
+		margin-right: 2px;
+	}
+	.sec2{
+		position: absolute;
+		left :33.33%;
+		right :33.33%;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.sec3{
+		position: absolute;
+		right: 0;
+		margin-left: 2px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .sec1{
+		position: absolute;
+		left: 0;
+		width: 50%;
+	}
+	.sec2{
+		position: relative;
+		left: 50%;
+		width: 50%;
+	}
+	.sec3{
+		position: absolute;
+		clear: both;
+		width: 100%;
+	}
+}
+@media(max-width: 991px) {
+	.sec1{
+		position: relative;
+		width: 100%;
+	}
+	.sec2{
+		position: relative;
+		width: 100%;
+	}
+	.sec3{
+		position: absolute;
+		clear: both;
+		width: 100%;
+	}	
+}
